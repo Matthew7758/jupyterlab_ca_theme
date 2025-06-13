@@ -1,6 +1,6 @@
 {
-    "name": "jupyterlab_ca_theme",
-    "version": "0.2.3",
+    "name": "jupyterlab-ca-theme",
+    "version": "0.2.4",
     "description": "A JupyterLab extension theme for Composable Analytics DataLabs.",
     "keywords": [
         "jupyter",
@@ -54,8 +54,8 @@
         "watch:labextension": "jupyter labextension watch ."
     },
     "dependencies": {
-        "@jupyterlab/application": "^4.0.0",
-        "@jupyterlab/apputils": "^4.0.0",
+        "@jupyterlab/application": "^4.4.3",
+        "@jupyterlab/apputils": "^4.5.3",
         "lumino": "^2.6.0"
     },
     "devDependencies": {

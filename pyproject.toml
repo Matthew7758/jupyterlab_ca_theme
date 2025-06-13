@@ -38,8 +38,8 @@ artifacts = ["jupyterlab_ca_theme/labextension"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_ca_theme/labextension" = "share/jupyter/labextensions/jupyterlab_ca_theme"
-"install.json" = "share/jupyter/labextensions/jupyterlab_ca_theme/install.json"
+"jupyterlab_ca_theme/labextension" = "share/jupyter/labextensions/jupyterlab-ca-theme"
+"install.json" = "share/jupyter/labextensions/jupyterlab-ca-theme/install.json"
 
 [tool.hatch.build.hooks.version]
 path = "jupyterlab_ca_theme/_version.py"

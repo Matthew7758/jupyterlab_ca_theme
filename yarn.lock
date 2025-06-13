@@ -250,7 +250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jupyterlab/application@npm:^4.0.0":
+"@jupyterlab/application@npm:^4.4.3":
   version: 4.4.3
   resolution: "@jupyterlab/application@npm:4.4.3"
   dependencies:
@@ -278,7 +278,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jupyterlab/apputils@npm:^4.0.0, @jupyterlab/apputils@npm:^4.5.3":
+"@jupyterlab/apputils@npm:^4.5.3":
   version: 4.5.3
   resolution: "@jupyterlab/apputils@npm:4.5.3"
   dependencies:
@@ -2877,12 +2877,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jupyterlab_ca_theme@workspace:.":
+"jupyterlab-ca-theme@workspace:.":
   version: 0.0.0-use.local
-  resolution: "jupyterlab_ca_theme@workspace:."
+  resolution: "jupyterlab-ca-theme@workspace:."
   dependencies:
-    "@jupyterlab/application": ^4.0.0
-    "@jupyterlab/apputils": ^4.0.0
+    "@jupyterlab/application": ^4.4.3
+    "@jupyterlab/apputils": ^4.5.3
     "@jupyterlab/builder": ^4.0.0
     "@lumino/commands": ^2.3.2
     "@lumino/coreutils": ^2.2.1

@@ -36,16 +36,16 @@ namespace CommandIDs {
  * Initialization data for the jupyterlab_ca_theme extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab_ca_theme:plugin',
+  id: 'jupyterlab-ca-theme:plugin',
   description: 'A JupyterLab extension theme for Composable Analytics DataLabs.',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
     console.log('JupyterLab extension jupyterlab_ca_theme is activated!');
-    const style = 'jupyterlab_ca_theme/index.css';
+    const style = 'jupyterlab-ca-theme/index.css';
 
     manager.register({
-      name: 'jupyterlab_ca_theme',
+      name: 'jupyterlab-ca-theme',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
